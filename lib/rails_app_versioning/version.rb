@@ -62,7 +62,7 @@ module RailsAppVersioning
     def release(category)
       bump(category)
       write(version_name)
-      git_release
+      #git_release
     end
   end
 end
